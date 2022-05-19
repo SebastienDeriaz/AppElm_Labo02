@@ -1,0 +1,39 @@
+{
+    "lastModifiedBy": {
+        "build": 20210823,
+        "major": 2022,
+        "patch": 0
+    },
+    "reports": [
+        {
+            "items": [
+                {
+                    "description": "",
+                    "module": "ModelerViewer",
+                    "name": "1D Results\\S-Parameters\\S1,1",
+                    "options": "{\"addOverlay\":true}",
+                    "screenshotFilepath": "b09da11b1fc14957b84e4d7c7ca8ccd1\\87e8070c076941fda2e37968dcd551e3.png",
+                    "sortkey": 0,
+                    "treePath": "{\"plotSettings\":\"{\\\"payload\\\":{\\\"viewtype\\\":\\\"db\\\"},\\\"version\\\":1}\",\"treePaths\":[\"1D Results\\\\S-Parameters\\\\S1,1\"]}",
+                    "uid": "87e8070c076941fda2e37968dcd551e3",
+                    "vis3DFilepath": ""
+                },
+                {
+                    "description": "",
+                    "module": "ModelerViewer",
+                    "name": "Components",
+                    "options": "{\"addOverlay\":true}",
+                    "screenshotFilepath": "b09da11b1fc14957b84e4d7c7ca8ccd1\\6a44f5a171a24ac19147eafa85319bad.png",
+                    "sortkey": 1,
+                    "treePath": "{\"plotSettings\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n<RememberPlots version=\\\"20200930\\\">\\n  <ModelViewSettings name=\\\"\\\" workplane=\\\"1\\\">\\n    <ViewSettings axes=\\\"1\\\" bbox=\\\"1\\\" wireframe=\\\"0\\\">\\n      <Camera matrix=\\\"0.999993861 0 -0.00349065149 0 0 1 0 0 0.00349065149 0 0.999993861 0 0 0 0 1\\\" center=\\\"20.5641766 1.72285175\\\" distance=\\\"0\\\" scale=\\\"8.27081299\\\"/>\\n      <Cutplane active=\\\"0\\\" normal=\\\"1 0 0\\\" dist=\\\"0\\\" covermode=\\\"HIDE\\\"/>\\n    </ViewSettings>\\n  </ModelViewSettings>\\n</RememberPlots>\\n\",\"treePaths\":[\"Components\"]}",
+                    "uid": "6a44f5a171a24ac19147eafa85319bad",
+                    "vis3DFilepath": ""
+                }
+            ],
+            "name": "Report 1",
+            "pathName": "b09da11b1fc14957b84e4d7c7ca8ccd1",
+            "uid": "b09da11b1fc14957b84e4d7c7ca8ccd1"
+        }
+    ],
+    "version": 20200902
+}

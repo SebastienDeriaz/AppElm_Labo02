@@ -1,0 +1,53 @@
+{
+    "parameters": [
+        {
+            "descr": "substrate length",
+            "expr": "88",
+            "name": "ls",
+            "value": "88"
+        },
+        {
+            "descr": "substrate width",
+            "expr": "30",
+            "name": "ws",
+            "value": "30"
+        },
+        {
+            "descr": "substrate height",
+            "expr": "1.6",
+            "name": "h",
+            "value": "1.6"
+        },
+        {
+            "descr": "entraxe entre les 2 lignes d'alim",
+            "expr": "1.7",
+            "name": "wl",
+            "value": "1.7"
+        },
+        {
+            "descr": "largeur dur brin",
+            "expr": "0.8",
+            "name": "i",
+            "value": "0.8"
+        },
+        {
+            "descr": "longeur vertical brin",
+            "expr": "0.5",
+            "name": "l1",
+            "value": "0.5"
+        },
+        {
+            "descr": "heuteur du brin",
+            "expr": "35e-3",
+            "name": "e",
+            "value": "35e-3"
+        },
+        {
+            "descr": "dip2 length",
+            "expr": "20.96",
+            "name": "l2",
+            "value": "20.96"
+        }
+    ],
+    "version": 1
+}
