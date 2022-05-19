@@ -37,10 +37,10 @@
 
 % Settings
 \newcommand{\Author}{Sébastien Deriaz \& Tristan Traiber}
-\newcommand{\professor}{Christophe Besson}
+\newcommand{\professor}{Delphine Bechevet}
 \newcommand{\assistant}{}
 \newcommand{\cours}{Applied electromagnetics (AppElm)}
-\newcommand{\titre}{Laboratoire 1}
+\newcommand{\titre}{Cahier de laboratoire}
 
 \newcommand{\qbox}[1]{\begin{tcolorbox}\emph{#1}\end{tcolorbox}}
 
@@ -52,6 +52,15 @@
     \caption[caption]{#3}
     \label{fig:#2}
   \end{figure}}
+  
+  \newcommand{\figpdf}[3]{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#1\textwidth]{Figure/#2.pdf}
+    \caption[caption]{#3}
+    \label{fig:#2}
+  \end{figure}}
+  
   
 \def\doubleunderline#1{\underline{\underline{#1}}}
 
@@ -107,9 +116,9 @@ Date & \today
 \pagebreak
 \subfile{preparation_theorie}
 \pagebreak
-\subfile{fonctionnement_sans_courant}
+\subfile{antenne_plane}
 \pagebreak
-\subfile{fonctionnement_avec_courant}
+\subfile{antenne_patch}
 \pagebreak
 \subfile{conclusion}
 
