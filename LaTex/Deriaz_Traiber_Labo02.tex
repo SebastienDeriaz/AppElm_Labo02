@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[]{report}
 
 
 \usepackage[french]{babel}
@@ -19,6 +19,8 @@
 \usepackage{mathtools}
 \usepackage{tcolorbox}
 
+\usepackage{subcaption}
+
 \usepackage{hyperref}
 \hypersetup{
     colorlinks,
@@ -37,10 +39,10 @@
 
 % Settings
 \newcommand{\Author}{Sébastien Deriaz \& Tristan Traiber}
-\newcommand{\professor}{Christophe Besson}
+\newcommand{\professor}{Delphine Bechevet}
 \newcommand{\assistant}{}
 \newcommand{\cours}{Applied electromagnetics (AppElm)}
-\newcommand{\titre}{Laboratoire 1}
+\newcommand{\titre}{Laboratoire 2}
 
 \newcommand{\qbox}[1]{\begin{tcolorbox}\emph{#1}\end{tcolorbox}}
 
@@ -103,15 +105,9 @@ Date & \today
 \pagebreak
 \subfile{introduction}
 \pagebreak
-\subfile{construction_modele}
+\subfile{dipole}
 \pagebreak
-\subfile{preparation_theorie}
-\pagebreak
-\subfile{fonctionnement_sans_courant}
-\pagebreak
-\subfile{fonctionnement_avec_courant}
-\pagebreak
-\subfile{conclusion}
+\subfile{patch}
 
 \begin{flushright}
 \begin{tabular}{r m{3cm}}
