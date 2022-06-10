@@ -150,4 +150,13 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
 Antenna_Patch/*
+
+Antenne_Plane_Bipole/cst/ant1_ceramic_sweep_alumina/Result/*
+Antenne_Plane_Bipole/cst/ant1_ceramic_sweep_alumina/Temp/*
+Antenne_Plane_Bipole/cst/ant1_ceramic_sweep_alumina/ModelCache/*
+
+Antenne_Plane_Bipole/cst/ant1_ceramic_sweep_fr4/Result/*
+Antenne_Plane_Bipole/cst/ant1_ceramic_sweep_fr4/Temp/*
+Antenne_Plane_Bipole/cst/ant1_ceramic_sweep_fr4/ModelCache/*

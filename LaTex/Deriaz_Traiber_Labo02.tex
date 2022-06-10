@@ -55,6 +55,15 @@
     \label{fig:#2}
   \end{figure}}
   
+  \newcommand{\figpdf}[3]{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=#1\textwidth]{Figure/#2.pdf}
+    \caption[caption]{#3}
+    \label{fig:#2}
+  \end{figure}}
+  
+  
 \def\doubleunderline#1{\underline{\underline{#1}}}
 
 \DeclareUnicodeCharacter{202F}{\,}
@@ -108,6 +117,8 @@ Date & \today
 \subfile{dipole}
 \pagebreak
 \subfile{patch}
+\pagebreak
+\subfile{conclusion}
 
 \begin{flushright}
 \begin{tabular}{r m{3cm}}
