@@ -22,7 +22,7 @@ $y_0$ & Hauteur du pied à l'intérieur de l'antenne\\
 $W$ & Longueur de l'antenne\\
 $L$ & Largeur de l'antenne\\
 \textbf{Constantes} & & \textbf{Valeur}\\\hline
-$w_s$ & largeur du PCB & \SI{100}{\milli\meter}\\
+$w_s$ & Largeur du PCB & \SI{100}{\milli\meter}\\
 $l_s$ & Longueur du PCB & \SI{100}{\milli\meter}\\
 $h$ & Épaisseur du PCB & \SI{1.6}{\milli\meter}\\
 $e$ & Épaisseur de cuivre & \SI{35}{\micro\meter}
@@ -32,7 +32,6 @@ $e$ & Épaisseur de cuivre & \SI{35}{\micro\meter}
 
 
 \section{FR-4}
-La valeur de $\epsilon_r$ pour le FR-4 est de 4.3
 \subsection{Calculs}
 La longueur $W$ est donnée par
 $$W=\frac{1}{2f_r\sqrt{\epsilon_0\epsilon_r}}\sqrt{\frac{2}{\epsilon_r+1}}=\frac{c}{2f_r}\sqrt{\frac{2}{\epsilon_r+1}}$$
@@ -141,6 +140,20 @@ Les dimensions finales sont
 \item $y_1=\SI{18}{\milli\meter}$
 \item $y_0=\SI{16}{\milli\meter}$
 \end{itemize}
+\subsubsection{Rayonnement}
+\figc{0.4}{FR4_farfield}{test}
+L'antenne rayonne fortement dans la direction $+z$
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}
+Directivité & \SI{6.74}{\deci\bel i}\\
+Gain isotrope & \SI{4.63}{\deci\bel i}\\
+Gain réalisé & \SI{4.59}{\deci\bel i}\\
+Efficacité totale & \SI{60.9}{\percent}
+\end{tabular}
+\caption{Valeurs mesurées pour l'antenne FR-4}
+\end{table}
+L'efficacité est bien moins bonne que celle atteinte avec l'antenne dipôle.
 \section{Céramique}
 La valeur de $\epsilon_r$ pour la céramique est de 4.3
 \subsection{Calculs}

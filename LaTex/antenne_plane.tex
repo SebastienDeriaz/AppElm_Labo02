@@ -1,64 +1,7 @@
 \documentclass[Deriaz_Traiber_Labo02]{subfiles}
 
 \begin{document}
-\section{Antenne plane}
 
-\subsection{Antenne plane avec substrat en FR4}
-
-\subsubsection{Caractéristique du substrat}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{ l  l }
-Matériau & FR-4 (\textit{loss free})\\
-Type & Normal \\
-Permittivité $\varepsilon_r$ & $\SI{4.3}{}$ \\
-$\mu$	& $1$ \\
-Conductivité therm. & $\SI{0.3}{\watt\per\kelvin\per\meter}$ \\
-\end{tabular}
-\end{table}
-
-\subsubsection{Paramètres de performance souhaités}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{l  l}
-$f_c$ & $\SI{2.45}{\giga\hertz}$ \\
-$S_{11}$ & $< \SI{10}{\decibel}$\\
-\end{tabular}
-\end{table}
-
-
-\subsubsection{Analyse théorique}
-$$
-\boxed{L = \dfrac{\lambda}{2\sqrt{\epsilon_r}} = \dfrac{c}{2 f \sqrt{\epsilon_r}}} \Rightarrow \boxed{L = \dfrac{3e8}{2\cdot2.45e9\sqrt{4.3}}=\SI{29.5}{\milli\meter}}
-$$
-
-
-\begin{table}[H]
-\centering
-\begin{tabular}{ l  l  l l}
-Nom & définition & dimension & type \\ \hline
-e  & épaisseur des piste de cuivre & \SI{35e-3}{\milli\meter} & fixe \\
-h  & épaisseur du substrat & \SI{1.6}{\milli\meter} & fixe \\
-i  & largeur du brin & \SI{0.8}{\milli\meter} & variable \\
-l1 & longueur du brin vertical & $\lambda / 8 \si{\milli\meter}$ & variable \\
-l2 & longueur du brin horizontal & \SI{1.6}{\milli\meter} & variable \\
-ls & largeur du substrat & \SI{1.6}{\milli\meter} & variable \\
-wl & entraxe inter-ligne du dipôle & \SI{2.0}{\milli\meter} & fixe \\
-ws & hauteur du substrat & \SI{30}{\milli\meter} &  variable \\
-\end{tabular}
-\end{table}
-
-
-\subsubsection{Paramètres et dimensions caractéristique de l'antenne planaire}
-
-\figpdf{0.8}{ant_planaire_schema}{Schéma caractéristique de l'antenne bipolaire planaire}
-
-
-\subsection{Premier dimensionnement de l'antenne}
-
-Afin de ce familiariser avec le dimensionnement de l'antenne planaire, la méthode utilisé consiste à modifier un seul des paramètres jusqu'à obtenir le résultat le plus proche possible des performances souhaitées puis de réaliser le même démarche pour un second paramètre et ainsi de suite pour les autre paramètre.
 
 
 
