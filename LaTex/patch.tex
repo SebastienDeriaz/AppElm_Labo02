@@ -62,6 +62,7 @@ La distance $y_1$ est calculée en faisant
 $$y_1=\frac{c}{8f_r}$$
 Soit
 $$y_1=\SI{23.79}{\milli\meter}$$
+\pagebreak
 \subsection{Itérations}
 \subsubsection{Première itération}
 La première itération (avec les valeurs calculées) donne :
@@ -96,6 +97,7 @@ Nous avons essayé de re-modifier $y_0$ en passant de \SI{10}{\milli\meter} à \
 \caption[caption]{$s_{11}$ de la quatrième itération}
 \end{figure}
 Pratiquement plus aucune résonance, la modification était trop importante.
+\pagebreak
 \subsubsection{Cinquième itération : Essai d'augmentation de la bande passante}
 Nous avons repris une valeur proche du départ pour $y_0$, soit \SI{16}{\milli\meter} et changé la valeur de $y_1$, soit \SI{18}{\milli\meter} au lieu de \SI{23.8}{\milli\meter}
 \begin{figure}[H]
@@ -112,9 +114,9 @@ Toutes les modifications sur $w_0$ et $w_1$ n'ont montré aucune améliorations
 \caption[caption]{$s_{11}$ des itérations 6,7,8}
 \end{figure}
 Les résultats sont mauvaise, nous avons repris les valeurs de l'itération 5
-\subsubsection{Itération 9}
+\subsubsection{Neuvième Itération}
 Les données sont celles de l'itération 5. La fréquence de résonance n'est pas parfaite
-\subsubsection{Itération 10}
+\subsubsection{Dixième Itération}
 Correction de la fréquence de résonance par la règle de trois
 \begin{figure}[H]
 \centering
@@ -130,6 +132,7 @@ L'épaisseur a été modifiée à \SI{2.5}{\milli\meter} puis \SI{5}{\milli\mete
 \caption[caption]{$s_{11}$ de l'itération 10}
 \end{figure}
 L'augmentation de l'épaisseur semble avoir un léger impact positif sur la bande passante.
+\pagebreak
 \subsection{Conclusion}
 La fréquence d'une antenne patch FR-4 peut facilement être ajustée en modifiant sa largeur et/ou sa longueur. Il est également possible d'obtenir un pic "profond" sur le $s_{11}$ en modifiant $y_0$ et $y_1$. En revanche il est très difficile, voir impossible de modifier la bande passante sans changer l'épaisseur du PCB.\\
 Les dimensions finales sont
@@ -154,6 +157,7 @@ Efficacité totale & \SI{60.9}{\percent}
 \caption{Valeurs mesurées pour l'antenne FR-4}
 \end{table}
 L'efficacité est bien moins bonne que celle atteinte avec l'antenne dipôle.
+\pagebreak
 \section{Céramique}
 La valeur de $\epsilon_r$ pour la céramique est de 4.3
 \subsection{Calculs}
@@ -175,6 +179,7 @@ Les valeurs sont celles calculées plus haut
 \caption[caption]{$s_{11}$ de l'itération 1}
 \end{figure}
 Le $s_{11}$ n'est pas très bon et la fréquence de résonance n'est pas bonne
+\pagebreak
 \subsubsection{Deuxième itération : Amélioration du $s_{11}$}
 Comme la fréquence est facile à modifier, nous avons augmenté le $y_0$ (à \SI{16}{\milli\meter}).
 \begin{figure}[H]
@@ -191,6 +196,7 @@ L'étape précédente a fonctionner, nous recommençons avec $y_0=\SI{18}{\milli
 \caption[caption]{$s_{11}$ de l'itération 3}
 \end{figure}
 Le $s_{11}$ s'est grandement dégradé
+\pagebreak
 \subsubsection{Quatrième itération : $y_0$ par régression}
 Pour trouver le $y_0$, nous avons effectuée une régression quadratique sur les précédentes valeurs de $y_0$ (trois valeurs et trois valeurs minimales de $s_{11}$) pour trouver la valeur idéale de $y_0=\SI{15.4}{\milli\meter}$
 \begin{figure}[H]
@@ -225,6 +231,7 @@ La dimension $y_0$ est augmentée à \SI{17}{\milli\meter}
 \caption[caption]{$s_{11}$ de l'itération 7}
 \end{figure}
 Le $s_{11}$ est moins bien qu'avant
+\pagebreak
 \subsubsection{huitième itération : Essai d'amélioration du $s_{11}$}
 Au lieu d'augmenter $y_0$, on le diminue à \SI{15}{\milli\meter}
 \begin{figure}[H]
@@ -241,6 +248,7 @@ Par curiosité, nous avons modifié l'épaisseur du substrat pour étudier l'imp
 \caption[caption]{$s_{11}$ des itérations 9 et 10}
 \end{figure}
 L'impact de la modification de l'épaisseur est plutôt négatif. La modification des autres paramètres pourrait aider à améliorer le $s_{11}$.
+\pagebreak
 \subsection{Conclusion}
 Comme pour l'antenne FR-4, il est facile d'obtenir une bonne fréquence de résonance mais obtenir une bande passante acceptable est très difficile. La meilleure solution possède une fréquence de résonance de \SI{1.577}{\giga\hertz} et une bande passante de \SI{22.6}{\mega\hertz}. Les dimensions finales sont :
 \begin{itemize}
