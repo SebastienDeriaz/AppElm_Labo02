@@ -201,17 +201,26 @@ La figure \ref{fig:bipol_param_sweep_fr4_best} illustre la courbe de $S_{11}$ du
 
 L'antenne ainsi dimensionnée remplie bien les objectifs souhaités, car elle possède un $S_{11} = \SI{-33.3}{\decibel}$ et une bande passante à \SI{-10}{\decibel} $\text{BW} = \SI{264}{\mega\hertz}$ ainsi qu'une fréquence de résonance de \SI{2.45}{\giga\hertz}.
 
+\pagebreak
+
 \subsection{Rayonnement (champ lointain) avec les meilleures performances}
+
+Maintenant que l'antenne dipôle à été dimensionné et qu'elle remplie les objectifs de concernant la bande passante et le $S_{11}$, il est encore intéressant de se pencher sur le diagramme de rayonnement en champ lointain.\\
+
+La figure \ref{fig:bipol_farfield_dir_fr4} illustre le rayonnement de l'antenne dipôle avec substrat en FR4 :
 
 \figc{0.9}{bipol_farfield_dir_fr4}{Directivité de l'antenne - Céramique}
 
+Le diagramme de rayonnement de la figure \ref{fig:bipol_farfield_dir_fr4} permet de constater que le rayonnement de l'antenne dipôle est isotrope et qu'il n'est par conséquent pas directionnel.\\
+
+La table \ref{tab:ray-fr4} décrit les performances concernant le rayonnement de l'antenne dipôle avec substrat en FR4 : 
+ 
 \begin{table}[H]
 \centering
 \begin{tabular}{l c}\hline
 Type					& Farfield\\
 Approximation		& enable($\text{kR}\gg1$)\\
 Component			& Abs\\
-Output				& Directivity\\
 Frequency			& \SI{2.45}{\giga\hertz}\\
 Radial Efficacity	& \SI{-0.01015}{\decibel i} $\Rightarrow$ \SI{99.77}{\percent}\\
 Total Efficacity		& \SI{-0.01256}{\decibel i} $\Rightarrow$ \SI{99.71}{\percent}\\
@@ -219,6 +228,8 @@ Directivity			& \SI{2.421}{\decibel i}\\
 Gain	 (IEEE)			& \SI{2.411}{\decibel i}\\
 Realized Gain		& \SI{2.408}{\decibel i}\\\hline
 \end{tabular}
+\caption{Caractéristique de rayonnement de l'antenne dipôle avec substrat FR4}
+\label{tab:ray-fr4}
 \end{table}
 
 
@@ -323,9 +334,19 @@ La figure \ref{fig:bipol_param_sweep_alumina_best} illustre la courbe de $S_{11}
 
 L'antenne ainsi dimentionné remplie bien les objectifs souhaitées, car elle possède un $S_{11} = \SI{-17.3}{\decibel}$ et une bande passante à \SI{-10}{\decibel} $\text{BW} = \SI{268}{\mega\hertz}$ ainsi qu'une fréquence de résonance de \SI{2.45}{\giga\hertz}.
 
+\pagebreak
+
 \subsection{Rayonnement (champ lointain) avec les meilleures performances}
 
+Maintenant que l'antenne dipôle à été dimensionné et qu'elle remplie les objectifs de concernant la bande passante et le $S_{11}$, il est encore intéressant de se pencher sur le diagramme de rayonnement en champ lointain.\\
+
+La figure \ref{fig:bipol_farfield_dir_alumina} illustre le rayonnement de l'antenne dipôle avec substrat en céramique :
+
 \figc{0.9}{bipol_farfield_dir_alumina}{Directivité de l'antenne - Céramique}
+
+Le constat est similaire à celui de l'antenne sur substrat en FR4.\\
+
+La table \ref{tab:ray-alumina} décrit les performances concernant le rayonnement de l'antenne dipôle avec substrat en céramique : 
 
 \begin{table}[H]
 \centering
@@ -341,12 +362,39 @@ Directivity			& \SI{2.820}{\decibel i}\\
 Gain	 (IEEE)			& \SI{2.809}{\decibel i}\\
 Realized Gain		& \SI{2.727}{\decibel i}\\\hline
 \end{tabular}
+\caption{Caractéristique de rayonnement de l'antenne dipôle avec substrat céramique}
+\label{tab:ray-alumina}
 \end{table}
 
 \pagebreak
 
 \section{Conclusion}
 
+Cette première partie de laboratoire à permis de se familiariser et de mettre en pratique le dimensionnement d'une antenne dipôle planaire. Ceci par le mise en pratique de deux méthodes.\\
+
+Dans un premier temps, en commençant par définir la longueur des brins horizontaux de l'antenne puis, une fois les meilleurs performance obtenue, de dimensionner la longueur des brins verticaux (pied) de l'antenne dipôle.\\
+
+La deuxième méthode consiste à réaliser un balayage de valeur pour les paramètre variable de l'antenne. Ce balayage permet ensuite de comprendre l'influence de chaque paramètre de l'antenne sur ces performances. Il est ensuite possible de sélectionner les paramètre donnant les meilleurs performances globales.\\
+
+Le dimensionnement satisfaisant à ainsi été trouvée, car il a permis de garantir, en simulation en tout cas, que l'antenne respectait des contraintes de fréquence de résonance (\SI{2.45}{\giga\hertz}) ainsi que de $S_{11}<\SI{10}{\decibel}$ et cela autant pour l'antenne avec substrat en FR4 que celui en céramique.\\
+
+La comparaison des deux substrat est donné dans la table \ref{tab:comp-substrat} :
+\begin{table}[H]
+\centering
+\begin{tabular}{l c c}\hline
+Substrat				& Céramique					&	FR4		\\\hline
+Frequency			& \SI{2.45}{\giga\hertz}		&	\SI{2.45}{\giga\hertz}\\
+Radial Efficacity	& \SI{99.74}{\percent} 		&	\SI{99.77}{\percent}	\\
+Total Efficacity		& \SI{97.8827}{\percent}		& 	\SI{99.71}{\percent}	\\
+Directivity			& \SI{2.820}{\decibel i}		&	\SI{2.421}{\decibel i}\\
+Gain	 (IEEE)			& \SI{2.809}{\decibel i}		&	\SI{2.411}{\decibel i}\\
+Realized Gain		& \SI{2.727}{\decibel i}		&	\SI{2.408}{\decibel i}\\\hline
+\end{tabular}
+\caption{Comparaison entre l'antenne sur substrat céramique et FR4}
+\label{tab:comp-substrat}
+\end{table}
+
+Il a été mis en déviance que le substrat céramique permet de diminuer la taille d'une antenne antenne dipôle par rapport à son équivalent sur substrat en FR4. Il a par contre été constaté que l'antenne avec substrat en FR4 possède une efficacité légèrement supérieur à celle de la  céramique. Cependant, le gain et la directivité est légèrement meilleur avec le substrat en céramique.
 
 
 \end{document}
