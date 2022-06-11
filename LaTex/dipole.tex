@@ -50,7 +50,7 @@ La largeur des brins ($i$) a été fixée à \SI{0.8}{\milli\meter} pour le mome
 
 Afin de se familiariser avec le dimensionnement de l'antenne dipôle planaire, la méthode utilisé consiste à modifier un seul des paramètres jusqu'à obtenir le résultat le plus proche possible des performances souhaitées puis de réaliser le même démarche pour un second paramètre et ainsi de suite pour les autres paramètres.\\
 
-Afin de mettre en évidence l'influence de chaque paramètre de l'antenne sur ses performances, il a été choisi de premièrement trouver les meilleures performances de $S_{11}$ possible en modifiant uniquement la longueur des brins horizontaux de l'antenne, soit $L_2$. Le paramètre $L_2$ correspond à la \textbf{longueur d'un seul brin horizontale} du dipôle. Le paramètre $L$ illustré sur le schéma de la figure \ref{fig:Schemas-crop} est donc décrit par :
+Afin de mettre en évidence l'influence de chaque paramètre de l'antenne sur ses performances, il a été choisi de premièrement trouver les meilleures performances de $S_{11}$ possible en modifiant uniquement la longueur des brins horizontaux de l'antenne, soit $L_2$. Le paramètre $L_2$ correspond à la \textbf{longueur d'un seul brin horizontal} du dipôle. Le paramètre $L$ illustré sur le schéma de la figure \ref{fig:Schemas-crop} est donc décrit par :
 $$
 L = 2\cdot L_2 + w_l 	\quad \text{avec} \quad  w_l \ll 2 \cdot L_2  \quad \Rightarrow \quad \boxed{L = 2\cdot L_2}
 $$
@@ -66,7 +66,7 @@ La figure \ref{fig:ant1_FR4_2} illustre les premières itérations du dimensionn
 	La figure \ref{fig:ant1_FR4_2} permet de constater plusieurs points intéressants :
 \end{flushleft}
 \begin{description}
-\item \textbf{Premièrement}, il ressort nettement sur les courbes de $S_{11}$, obtenues par simulation, que l'antenne possède deux modes résonants dans la plage de simulation définit ($0\dots$\SI{4}{\giga\hertz}), typiquement \SI{1.2}{\giga\hertz} et \SI{2.75}{\giga\hertz} pour $L_2 = \SI{38}{\milli\meter}$. Ces modes résonnants sont simplement dues à la géométrie en "\textit{équerre}" de l'antenne dipôle.\\
+\item \textbf{Premièrement}, il ressort nettement sur les courbes de $S_{11}$, obtenues par simulation, que l'antenne possède deux modes résonants dans la plage de simulation définie ($0\dots$\SI{4}{\giga\hertz}), typiquement \SI{1.2}{\giga\hertz} et \SI{2.75}{\giga\hertz} pour $L_2 = \SI{38}{\milli\meter}$. Ces modes résonnants sont simplement dues à la géométrie en "\textit{équerre}" de l'antenne dipôle.\\
 Il ressort aussi que les fréquences des modes résonnants de l'antenne sont inversement proportionnelles à la longueur du brin. Plus simplement, une diminution de la longueur du brin horizontal à pour conséquence de "\textit{pousser}" les modes (pics de résonance) vers la droite et inversement. Ce qui est logique, car il a été mis en évidence, dans la théorie, que la longueur des brins horizontaux était liée à la fréquence de résonance par la relation  $L_2 = c/(2\cdot F_r \cdot \sqrt{\varepsilon_r})$. Une augmentation de la fréquence de résonance à donc bien pour conséquence une diminution de la longueur de $L_2$ et réciproquement.\\
 
 \item \textbf{Deuxièmement}, la longueur de brin $L_2$ calculée dans la théorie ne donne pas les résultats escomptés. Typiquement, une longueur de brin, $L_2=29.5\si{\milli\meter}$, donne deux modes résonnants, soit \SI{1.412}{\giga\hertz} et \SI{3.044}{\giga\hertz}, ce qui est très éloigné de la fréquence de résonance $F_r=\SI{2.45}{\giga\hertz}$ souhaitée.\\
