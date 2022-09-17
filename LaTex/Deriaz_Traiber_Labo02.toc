@@ -19,29 +19,29 @@
 \contentsline {section}{\numberline {3.2}FR-4}{21}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Calculs}{21}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Itérations}{23}{subsection.3.2.2}%
-\contentsline {subsubsection}{Première itération}{23}{section*.27}%
-\contentsline {subsubsection}{Deuxième itération : correction de la fréquence de résonance}{23}{section*.29}%
-\contentsline {subsubsection}{Troisième itération : Essai d'augmentation de la bande passante}{24}{section*.31}%
-\contentsline {subsubsection}{Quatrième itération : Essai d'augmentation de la bande passante}{24}{section*.33}%
-\contentsline {subsubsection}{Cinquième itération : Essai d'augmentation de la bande passante}{25}{section*.35}%
-\contentsline {subsubsection}{Itérations 6,7 et 8 : Tests en modifiant $w_0$ et $w_1$}{25}{section*.37}%
-\contentsline {subsubsection}{Neuvième Itération}{25}{section*.39}%
-\contentsline {subsubsection}{Dixième Itération}{26}{section*.40}%
-\contentsline {subsubsection}{Itérations 11 et 12 : test en modifiant l'épaisseur du circuit}{26}{section*.42}%
+\contentsline {subsubsection}{Première itération}{23}{section*.28}%
+\contentsline {subsubsection}{Deuxième itération : correction de la fréquence de résonance}{23}{section*.30}%
+\contentsline {subsubsection}{Troisième itération : Essai d'augmentation de la bande passante}{24}{section*.32}%
+\contentsline {subsubsection}{Quatrième itération : Essai d'augmentation de la bande passante}{24}{section*.34}%
+\contentsline {subsubsection}{Cinquième itération : Essai d'augmentation de la bande passante}{25}{section*.36}%
+\contentsline {subsubsection}{Itérations 6,7 et 8 : Tests en modifiant $w_0$ et $w_1$}{25}{section*.38}%
+\contentsline {subsubsection}{Neuvième Itération}{25}{section*.40}%
+\contentsline {subsubsection}{Dixième Itération}{26}{section*.41}%
+\contentsline {subsubsection}{Itérations 11 et 12 : test en modifiant l'épaisseur du circuit}{26}{section*.43}%
 \contentsline {subsection}{\numberline {3.2.3}Conclusion}{27}{subsection.3.2.3}%
-\contentsline {subsubsection}{Rayonnement}{27}{section*.44}%
+\contentsline {subsubsection}{Rayonnement}{27}{section*.45}%
 \contentsline {section}{\numberline {3.3}Céramique}{28}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Calculs}{28}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Itérations}{28}{subsection.3.3.2}%
-\contentsline {subsubsection}{Première itération}{28}{section*.47}%
-\contentsline {subsubsection}{Deuxième itération : Amélioration du $s_{11}$}{29}{section*.49}%
-\contentsline {subsubsection}{Troisième itération : Amélioration du $s_{11}$}{29}{section*.51}%
-\contentsline {subsubsection}{Quatrième itération : $y_0$ par régression}{30}{section*.53}%
-\contentsline {subsubsection}{Cinquième itération : Correction de la fréquence de résonance}{30}{section*.55}%
-\contentsline {subsubsection}{Sixième itération : Essai d'amélioration du $s_{11}$}{31}{section*.57}%
-\contentsline {subsubsection}{Septième itération : Essai d'amélioration du $s_{11}$}{31}{section*.59}%
-\contentsline {subsubsection}{huitième itération : Essai d'amélioration du $s_{11}$}{32}{section*.61}%
-\contentsline {subsubsection}{Neuvième et dixième itérations : Changement de l'épaisseur}{32}{section*.63}%
+\contentsline {subsubsection}{Première itération}{28}{section*.48}%
+\contentsline {subsubsection}{Deuxième itération : Amélioration du $s_{11}$}{29}{section*.50}%
+\contentsline {subsubsection}{Troisième itération : Amélioration du $s_{11}$}{29}{section*.52}%
+\contentsline {subsubsection}{Quatrième itération : $y_0$ par régression}{30}{section*.54}%
+\contentsline {subsubsection}{Cinquième itération : Correction de la fréquence de résonance}{30}{section*.56}%
+\contentsline {subsubsection}{Sixième itération : Essai d'amélioration du $s_{11}$}{31}{section*.58}%
+\contentsline {subsubsection}{Septième itération : Essai d'amélioration du $s_{11}$}{31}{section*.60}%
+\contentsline {subsubsection}{huitième itération : Essai d'amélioration du $s_{11}$}{32}{section*.62}%
+\contentsline {subsubsection}{Neuvième et dixième itérations : Changement de l'épaisseur}{32}{section*.64}%
 \contentsline {subsection}{\numberline {3.3.3}Conclusion}{33}{subsection.3.3.3}%
-\contentsline {subsubsection}{Rayonnement}{33}{section*.65}%
+\contentsline {subsubsection}{Rayonnement}{33}{section*.66}%
 \contentsline {chapter}{\numberline {4}Conclusion générale}{34}{chapter.4}%
